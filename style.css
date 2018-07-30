@@ -211,6 +211,10 @@ body, html{
     font-family: 'montserrat';    
 }
 
+.about-card-text h1{
+    font-size: 15px;    
+}
+
 .about-card-icons{
     display: inline;
 }
