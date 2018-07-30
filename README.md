@@ -1,2 +1,4 @@
-A simple static site used as my portfolio. This portfolio is mostly used to showcase various projects and direct possible 
-employers and clients to my social pages
+A simple static site used as my portfolio. This portfolio is mostly used to showcase various projects and direct possible
+employers and clients to my social pages.
+
+Employers are encouraged to contact me.
