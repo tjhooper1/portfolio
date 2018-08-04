@@ -16,6 +16,12 @@ body, html{
     100% {opacity: 0;}
 }
 
+@keyframes icons{
+    0% {font-size: 40px;}
+    100%{font-size: 100px; color: lightcyan;}
+    
+}
+
 /*------------------------------*/
 /*------------------------------*/
 /*        BEGIN HEADER          */
@@ -69,7 +75,15 @@ body, html{
 .img-text a{
     color: white;
     font-size: 40px;
-    padding: 20px
+    padding: 20px;
+    transition: 1s;
+}
+
+.img-text a:hover{
+    
+    transition: .5s;
+    font-size: 80px;
+    color: lightcoral;
 }
 
 .nav{

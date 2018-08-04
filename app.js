@@ -14,9 +14,6 @@ var toggleIcon = document.querySelector('.fas');
 var items = document.querySelectorAll('.nav-li');
 var open = false;
 
-
-
-
 window.onload = function(){
     nav.style.width = '0%';
     items.forEach(function(item){
@@ -25,7 +22,6 @@ window.onload = function(){
     });
 
 };
-
 
 toggleIcon.addEventListener('click', function(){
     if(open){
