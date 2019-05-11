@@ -39,7 +39,7 @@ toggleIcon.addEventListener('click', function(){
         item.style.opacity = '1';
         item.style.display = 'block';
     });
-        nav.style.width = "10%";
+        nav.style.width = "25%";
         open = !open;
     }
 });
