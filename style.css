@@ -140,7 +140,7 @@ body, html{
 /*Projects section*/
 
 #projects{
-    display: block;
+    display: flex;
        
 }
 
@@ -190,7 +190,6 @@ body, html{
 }
 
 .about-card{
-    
     background-color: #233237;
     box-shadow: -10px 20px 30px #233237;
     text-align: center;    
@@ -200,8 +199,6 @@ body, html{
     margin: 0;
     padding: 0;
     position: relative;
-    
-
 }
 
 .image img{
@@ -235,7 +232,7 @@ body, html{
 .about-card-icons ul {
     padding: 0;
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
 }
 
 .about-card-icons li{
@@ -247,6 +244,7 @@ body, html{
 }
 .about-card-icons i{
     color: white;
+    font-size: 4rem;
 }
 
 .about-skills{
@@ -282,6 +280,9 @@ body, html{
         justify-content: flex-end;
         
     }
+    #projects{
+        display: block;
+    }
     .nav-toggle i{
         top: 75%;
     }
@@ -290,25 +291,37 @@ body, html{
         display: flex;
         justify-content: center;
     }
+    .about-card-icons li{
+        font-size: 4rem;
+    }
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-} 
+/* @media only screen and (min-width: 600px) {
+    .about-card-icons li{
+        font-size: 4rem;
+    }
+}  */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-} 
+/* @media only screen and (min-width: 768px) {
+    .about-card-icons li{
+        font-size: 4rem;
+    }
+}  */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
+    #projects{
+        display: flex;
+        flex-direction: row;
+        align-items: inherit;
+    }
+    .about-card-icons li {
+        list-style: none;
+        font-size: 4rem;
+        color: white;
+    }
+}  */
 
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
 
