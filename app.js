@@ -31,7 +31,7 @@ toggleIcon.addEventListener('click', function(){
         item.style.display = 'none';
     });
     nav.style.width = "0%";
-    navBox.style.width = '50%';
+    navBox.style.width = '100%';
     open = !open;
     }else{
         items.forEach(function(item){

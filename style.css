@@ -99,7 +99,7 @@ body, html{
 }
 
 .nav ul{
-    list-style: none;
+    font-size: 1.5rem;
     padding: 0;
     width : 100%;
     text-align: center;
@@ -110,7 +110,11 @@ body, html{
     color: white;
     width: 100%;
     transition: 100ms;
-    margin: 20px 0 20px 0
+    margin: 20px 0 20px 0;
+}
+
+.nav ul a{
+    text-decoration: none;
 }
 
 .nav ul li:hover{
@@ -311,7 +315,7 @@ body, html{
 }  */
 
 /* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     #projects{
         display: flex;
         flex-direction: row;
@@ -322,6 +326,9 @@ body, html{
         font-size: 4rem;
         color: white;
     }
-}  */
+    .nav ul {
+        font-size: 2.5rem;
+    }
+} 
 
 
