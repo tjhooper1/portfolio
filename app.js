@@ -31,7 +31,7 @@ toggleIcon.addEventListener('click', function(){
         item.style.display = 'none';
     });
     nav.style.width = "0%";
-    navBox.style.width = '50%';
+    navBox.style.width = '100%';
     open = !open;
     }else{
         items.forEach(function(item){
@@ -39,7 +39,7 @@ toggleIcon.addEventListener('click', function(){
         item.style.opacity = '1';
         item.style.display = 'block';
     });
-        nav.style.width = "10%";
+        nav.style.width = "25%";
         open = !open;
     }
 });
